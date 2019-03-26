@@ -1,8 +1,14 @@
 public abstract class Personel {
 
-    protected String id;
-    protected String adSoyad;
-    protected Daire ev;
+    private String id;
+    private String adSoyad;
+    private Daire ev;
+
+    Personel(String id, String adSoyad, Daire ev) {
+        this.id = id;
+        this.adSoyad = adSoyad;
+        this.ev = ev;
+    }
 
     abstract void kendiniTanit();
 
