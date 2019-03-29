@@ -6,7 +6,7 @@ public class Student {
     private String name;
     private String id;
 
-    {
+    static {
         System.out.println("Instance created");
     }
 
