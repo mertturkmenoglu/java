@@ -1,8 +1,7 @@
 package oop.exception;
 
-import java.io.IOException;
-
-public class InvalidNumberException extends IOException {
+@SuppressWarnings("all")
+public class InvalidNumberException extends Exception {
     public InvalidNumberException() {
         super();
     }
