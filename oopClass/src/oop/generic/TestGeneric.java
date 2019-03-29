@@ -1,9 +1,12 @@
-package oop.generic.test;
+package oop.generic;
+
+import oop.annotation.DefaultConstructor;
 
 public class TestGeneric<T> {
 
     private T obj;
 
+    @DefaultConstructor
     TestGeneric(T obj) {
         this.obj = obj;
     }

@@ -1,4 +1,4 @@
-package oop.exception.test;
+package oop.exception;
 
 public class Person {
 
