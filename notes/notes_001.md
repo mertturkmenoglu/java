@@ -210,3 +210,27 @@ __Please note that these notes are just collection of my lecture notes and resea
 * Only **objects** which is an instance of a class that **implements** __`java.io.Serializable`__ **can** be **written to streams**.
 * __`transient`__ is used in __serialization__. If you __define__ any data as __transient__, it __won't__ be __serialized__. 
 ***
+* Types of **inheritance**:
+    * **Single** (supported)
+    * **Multilevel** (supported)
+    * **Hierarchical** (supported)
+    * **Multiple** (**not** supported)
+    * **Hybrid** (also known as **Diamond**) (**not** supported)
+* **Call to** an **overriden method** **resolves** at **runtime** (not compile-time). This is called **runtime polymorphism(Dynamic Method Dispatch)**
+* An **abstract class can have**:
+    * **Abstract** and **non-abstract** methods
+    * **Static** methods
+    * **Final** methods
+* __`static`__ keyword may used with:
+    * **Variables**
+    * **Methods**
+    * **Blocks**
+    * **Nested Classes**
+* **Static variables** are **created** only **once** during the **loading of** related **class**.
+* **Static methods** belongs to all objects of that class. 
+* You may **call a static method without** the need of creating **an instance** of the class.
+* **You can not refer to a non-static context from a static context**.
+* You **can not** use __`this`__ and __`super`__ **in static context**.
+* **Static blocks**:
+    * Used to **initialize static member variables**.
+    * **Executed** at the **classloading**.
