@@ -1,0 +1,4 @@
+- Install https://github.com/alanshaw/markdown-pdf
+- Create a CSS file to prevent wrong output on PDF.
+- Command:
+		markdown-pdf -s ./style.css ./notes_001.md -f 'A4'
