@@ -27,6 +27,7 @@ __Please note that these notes are just collection of my lecture notes and resea
         public abstract void run();  
     }  
 ```  
+[comment]: # (&nbsp;)
 * A __`lambda expression`__ implements a *functional interface*.
 * Lambda expressions came with __Java 8__.
 * __Lambda expressions__ are functions that __do not have to be an instance of a class__.
@@ -186,6 +187,9 @@ __Please note that these notes are just collection of my lecture notes and resea
         }  
     }  
 ```
+[comment]: # (
+&nbsp;
+&nbsp;)
 * __Abstraction__: **Hiding details**, **showing functionality**.
 * __Encapsulation__: Code and functions **in a single unit**.
 * __`new`__ is used to **allocate** **memory** at **runtime**.
@@ -224,10 +228,15 @@ __Please note that these notes are just collection of my lecture notes and resea
             e.printStackTrace();  
         }  
     ```
-    11. __Inside__ of a __try__ block, __exception raises__, try block __throws exception__.
-    12. Throwed exception is tried to __catch__ from __one of the catch blocks__.
-    13. __System exceptions__ are automatically __throwed__ by __JRE__. 
-    14. You may __throw exception manually__.  
+    11.  __Inside__ of a __try__ block, __exception raises__, try block __throws exception__.
+    12.  Throwed exception is tried to __catch__ from __one of the catch blocks__.
+    13.  __System exceptions__ are automatically __throwed__ by __JRE__. 
+    
+    [comment]: # (&nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;)
+    14.  You may __throw exception manually__.  
     ```java  
         ...  
         if (param == null) {  
@@ -235,7 +244,7 @@ __Please note that these notes are just collection of my lecture notes and resea
         }  
         ...  
     ```
-    15. Every __throwable__ exception should be __written__ on __method definition__.
+    15.   Every __throwable__ exception should be __written__ on __method definition__.
 * Exception messages:
     * __`java.lang.Throwable.printStackTrace()`__
     * __`toString()`__
@@ -311,6 +320,12 @@ __Please note that these notes are just collection of my lecture notes and resea
     2. __Heap Memory__:
         * __Runtime__ data area
         * __Objects__ are __allocated__ here.
+  
+    [comment]: # (
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;)
     3. __Stack__:
         * Stores __frames__.
         * Holds __local variables__.
@@ -357,6 +372,17 @@ __Please note that these notes are just collection of my lecture notes and resea
   
         }  
     ```
+    [comment]: # (
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;)
+ 
     * **Hierarchical** (supported)  
     ```java  
         class A {  
