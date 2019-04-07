@@ -3,11 +3,31 @@
 __Please note that these notes are just collection of my lecture notes and researchs over the internet. They come with ABSOLUTELY NO WARRANTY.__  
 ***
 * __`instanceof`__ is an **operator** which is used to **test** whether given **object** is an **instance of the class** (Or subclass or interface).
-* __`instanceof`__ returns a __`Boolean`__ value.
+* __`instanceof`__ returns a __`Boolean`__ value.  
+```java  
+    ...  
+    ...  
+    if (john instanceof Student) {  
+        System.out.println("John is a student");  
+    }  
+    ...  
+```
 * __`strictfp`__ **ensures** that you get the **same result** on **floating-point** arithmetics.
-* __`Synchronized`__ keyword makes a class or method __thread-safe__. It means that at a certain time, only one thread can access to class(or method). This is called __locking__. Other threads must wait until this locking removed.
+* __`Synchronized`__ keyword makes a class or method __thread-safe__. It means that at a certain time, only one thread can access to class(or method). This is called __locking__. Other threads must wait until this locking removed.  
+```java  
+    // From java.util.Vector class  
+    public synchronized void setSize(int newSize) {  
+        ...  
+    }  
+```
 * An interface with only one abstract method is called a __`functional interface`__. For example,  __`java.lang.Runnable`__ is a functional interface and it has only one abstract method `void run()`.  
-* A __`lambda expression`__ implements a functional interface.
+```java  
+    @FunctionalInterface  
+    public interface Runnable {  
+        public abstract void run();  
+    }  
+```  
+* A __`lambda expression`__ implements a *functional interface*.
 * Lambda expressions came with __Java 8__.
 * __Lambda expressions__ are functions that __do not have to be an instance of a class__.
 * Lambda expressions __can be used as parameters__. They behave as objects.
@@ -17,12 +37,22 @@ __Please note that these notes are just collection of my lecture notes and resea
 ## Classes
 ***
 * A __method declaration__ is basically:
-    * `Modifier - Return type - Method name - Parameter list - Exception list - Method Body`
+    * *Modifier* 
+    * *Return type*
+    * *Method name*
+    * *Parameter list*
+    * *Exception list*
+    * *Method Body*  
+    ```java  
+        public void aFunction(int param) throws NullPointerException {  
+            ...  
+        }  
+    ```  
 * __Method Modifier__ Types: 
-    * `Public`
-    * `Private`
-    * `Protected`
-    * `Default`
+    * *Public*
+    * *Private*
+    * *Protected*
+    * *Default*  
 * __`Public`__: Can be access from __anywhere__ in JVM.
 * __`Protected`__: Can be access from the __same class__ it's declared __or__ from its __child classes__.
 * __`Private`__: Can be access from __only inside__ of the class it is declared.
@@ -46,10 +76,38 @@ __Please note that these notes are just collection of my lecture notes and resea
     * `public synchronized static void main(String[] args) { }`
     * `public strictfp static void main(String[] args) { }`
     * `final static synchronized strictfp static main(String[] args) { }`
-* A __class can extend__ the __class__ which __contains__ the __main method__. __(Inheritance of main method)__
-* Java __does not support user defined operator overloading__. But in background, __`+`__ operator is __overloaded__ for __string concatenation__.
-* __Overloading: Same name, different signature__.
-* __Overriding__: __Same name__ and __same signature__.__Different implementation__ in __different classes__.
+* A __class can extend__ the __class__ which __contains__ the __main method__. __(Inheritance of main method)__  
+```java  
+    class Container {  
+        public static void main(String[] args) {  
+            ...  
+        }  
+    }  
+  
+    class Child extends Container {  
+        ...  
+    }  
+```  
+* Java __does not support user defined operator overloading__. But in background, __`+`__ operator is __overloaded__ for __string concatenation__.  
+```java  
+    System.out.println("Hello" + " World");  
+```  
+* __Overloading: Same name, different signature__.  
+```java  
+    public int addInt(int param1, int param2) {  
+        return param1 + param2;  
+    }  
+    public int addInt(int param1, int param2, int param3) {  
+        return param1 + param2 + param3;  
+    }  
+```  
+* __Overriding__: __Same name__ and __same signature__.__Different implementation__ in __different classes__.  
+```java  
+    @Override
+    public String toString() {  
+        ...  
+    }  
+```  
 * __Overloading__ is an example for __compile time polymorphism__.
 * __Overriding__ is an example for __run time polymorphism__.
 * __`Private`__ methods are __implicitly final__ because __no class can access and override__ them.
@@ -67,13 +125,44 @@ __Please note that these notes are just collection of my lecture notes and resea
 * __Constructor__ definitions __doesn't have return statements__, __but__ you __may write__. 
 * __Constructor returns an instance to class__.
 * __Constructor__ does __not__ __return__ __void__.
-* __Constructor name__ and __class name__ __must__ be __same__.
-* __Constructors__ __can__ be __overloaded__.
+* __Constructor name__ and __class name__ __must__ be __same__.  
+```java  
+    public class Person {  
+        public Person() {  
+            ...  
+        }  
+    }  
+```  
+* __Constructors__ __can__ be __overloaded__.  
+```java  
+    public class Person {  
+        String name;  
+        public Person() {  
+
+        }
+        public Person(String name) {  
+            this.name = name;  
+        }  
+    }  
+```  
 * Different from other methods, __constructors__ are __invoked__ during __only__ __object creation__ with __new__ keyword. __Other methods__ can be __called__ __multiple__ times.
 * If you __add return type__ to __front__ of a __constructor__, it __behaves__ as any other __method__. But __compiler__ will give you a __warning__: __`Method has constructor name`__ 
 * You may __create__ __private constructors__.
 * **Private constructors** can be used for __singleton class__ or __internal constructor chaining__.
-* __Constructor chaining__: Calling __`super`__ constructor or __`this`__ constructor.
+* __Constructor chaining__: Calling __`super`__ constructor or __`this`__ constructor.  
+```java  
+    public class Person {  
+        int age;  
+        String name;  
+        private Person(int age) {  
+            this.age = age;  
+        }  
+        public Person(String name, int age) {  
+            this(age);  
+            this.name = name;  
+        }  
+    }  
+```
 * __No-Args constructor != Default Constructor__
 * Every class __needs__ a __constructor__ but you do __not__ have to write __destructor__. Because Java __has garbage collection__.
 * __Singleton class__: 
@@ -81,10 +170,29 @@ __Please note that these notes are just collection of my lecture notes and resea
     * __Private constructor__
     * Does __not__ use __`new`__ keyword, uses __`getInstance()`__ method(by convention).
     * Method __returns an object__ to the class.
+```java  
+    public class Calender {  
+        private static Calender instance = null;  
+  
+        private Calender() {  
+  
+        }  
+  
+        public Calender getInstance() {  
+            if (instance == null) {  
+                instance = new Calender();  
+            }  
+            return instance;  
+        }  
+    }  
+```
 * __Abstraction__: **Hiding details**, **showing functionality**.
 * __Encapsulation__: Code and functions **in a single unit**.
 * __`new`__ is used to **allocate** **memory** at **runtime**.
-* **Anonymous objects** are **nameless** objects. There are **no references** to these objects.
+* **Anonymous objects** are **nameless** objects. There are **no references** to these objects.  
+```java  
+    new Person("Name").sayHello();  
+```
 ***
 ## Exception Handling
 ***
@@ -99,21 +207,35 @@ __Please note that these notes are just collection of my lecture notes and resea
 * __Checked Exceptions__: `IO Exceptions`, `Compile time Exceptions` ...
 * __Unchecked Exceptions__: `Runtime Exception`, `NullPointerException` ...
 * __Default exception handling__:
-    __1.__ Method __creates__ an __Exception object__ and __sends__ it to __JVM__.
-    __2.__ __Exception__ has __name__, __explanation__ and __current program status__.
-    __3.__ This process is called exception __throwing__.
-    __4.__ In every exception __raise__, there is a list called __Call Stack__ which lists all methods. It is __important__ to write __catch__ blocks with respect to __hierarchy__.
-    __5.__ In an __exception raise__, __run-time__ system searches for a __method__ which can __handle__ the __exception__ on the __call stack__.
-    __6.__ This code block is called __exception handler__.
-    __7.__ If run-time system can __find__ a __related exception handler__, it __transfers__ exception __to method__.
-    __8.__ If run-time system can __not find__ a __related exception handler__, it __transfers__ exception __to default exception handler__.
-    __9.__ Default exception handler __prints__ exception __information__ and __ends program abnormally__.
-    __10.__ __Code__ block that __could raise an exception__, __should__ be written in a __`try-catch`__ block.
-    __11.__ __Inside__ of a __try__ block, __exception raises__, try block __throws exception__.
-    __12.__ Throwed exception is tried to __catch__ from __one of the catch blocks__.
-    __13.__ __System exceptions__ are automatically __throwed__ by __JRE__. 
-    __14.__ You may __throw exception manually__.
-    __15.__ Every __throwable__ exception should be __written__ on __method definition__.
+    1. Method __creates__ an __Exception object__ and __sends__ it to __JVM__.
+    2. __Exception__ has __name__, __explanation__ and __current program status__.
+    3. This process is called exception __throwing__.
+    4. In every exception __raise__, there is a list called __Call Stack__ which lists all methods. It is __important__ to write __catch__ blocks with respect to __hierarchy__.
+    5. In an __exception raise__, __run-time__ system searches for a __method__ which can __handle__ the __exception__ on the __call stack__.
+    6. This code block is called __exception handler__.
+    7. If run-time system can __find__ a __related exception handler__, it __transfers__ exception __to method__.
+    8. If run-time system can __not find__ a __related exception handler__, it __transfers__ exception __to default exception handler__.
+    9. Default exception handler __prints__ exception __information__ and __ends program abnormally__.
+    10. __Code__ block that __could raise an exception__, __should__ be written in a __`try-catch`__ block.  
+    ```java  
+        try {  
+            // Code that may raise an exception  
+        } catch (Exception e) {  
+            e.printStackTrace();  
+        }  
+    ```
+    11. __Inside__ of a __try__ block, __exception raises__, try block __throws exception__.
+    12. Throwed exception is tried to __catch__ from __one of the catch blocks__.
+    13. __System exceptions__ are automatically __throwed__ by __JRE__. 
+    14. You may __throw exception manually__.  
+    ```java  
+        ...  
+        if (param == null) {  
+            throw NullPointerException;  
+        }  
+        ...  
+    ```
+    15. Every __throwable__ exception should be __written__ on __method definition__.
 * Exception messages:
     * __`java.lang.Throwable.printStackTrace()`__
     * __`toString()`__
@@ -211,9 +333,44 @@ __Please note that these notes are just collection of my lecture notes and resea
 * __`transient`__ is used in __serialization__. If you __define__ any data as __transient__, it __won't__ be __serialized__. 
 ***
 * Types of **inheritance**:
-    * **Single** (supported)
-    * **Multilevel** (supported)
-    * **Hierarchical** (supported)
+    * **Single** (supported)  
+    ```java  
+        class A {  
+  
+        }  
+  
+        class B extends A {  
+  
+        }  
+    ```
+    * **Multilevel** (supported)  
+    ```java  
+        class A {  
+  
+        }  
+  
+        class B extends A {  
+  
+        }  
+  
+        class C extends B {  
+  
+        }  
+    ```
+    * **Hierarchical** (supported)  
+    ```java  
+        class A {  
+  
+        }  
+  
+        class B extends A {  
+  
+        }  
+  
+        class C extends A {  
+  
+        }  
+    ```
     * **Multiple** (**not** supported)
     * **Hybrid** (also known as **Diamond**) (**not** supported)
 * **Call to** an **overriden method** **resolves** at **runtime** (not compile-time). This is called **runtime polymorphism(Dynamic Method Dispatch)**
