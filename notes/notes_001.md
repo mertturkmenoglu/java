@@ -2,6 +2,9 @@
 ***
 __Please note that these notes are just collection of my lecture notes and researchs over the internet. They come with ABSOLUTELY NO WARRANTY.__  
 ***
+* __`instanceof`__ is an **operator** which is used to **test** whether given **object** is an **instance of the class** (Or subclass or interface).
+* __`instanceof`__ returns a __`Boolean`__ value.
+* __`strictfp`__ **ensures** that you get the **same result** on **floating-point** arithmetics.
 * __`Synchronized`__ keyword makes a class or method __thread-safe__. It means that at a certain time, only one thread can access to class(or method). This is called __locking__. Other threads must wait until this locking removed.
 * An interface with only one abstract method is called a __`functional interface`__. For example,  __`java.lang.Runnable`__ is a functional interface and it has only one abstract method `void run()`.  
 * A __`lambda expression`__ implements a functional interface.
@@ -69,7 +72,7 @@ __Please note that these notes are just collection of my lecture notes and resea
 * Different from other methods, __constructors__ are __invoked__ during __only__ __object creation__ with __new__ keyword. __Other methods__ can be __called__ __multiple__ times.
 * If you __add return type__ to __front__ of a __constructor__, it __behaves__ as any other __method__. But __compiler__ will give you a __warning__: __`Method has constructor name`__ 
 * You may __create__ __private constructors__.
-* Private constructors can be used for __singleton class__ or __internal constructor chaining__.
+* **Private constructors** can be used for __singleton class__ or __internal constructor chaining__.
 * __Constructor chaining__: Calling __`super`__ constructor or __`this`__ constructor.
 * __No-Args constructor != Default Constructor__
 * Every class __needs__ a __constructor__ but you do __not__ have to write __destructor__. Because Java __has garbage collection__.
@@ -78,6 +81,10 @@ __Please note that these notes are just collection of my lecture notes and resea
     * __Private constructor__
     * Does __not__ use __`new`__ keyword, uses __`getInstance()`__ method(by convention).
     * Method __returns an object__ to the class.
+* __Abstraction__: **Hiding details**, **showing functionality**.
+* __Encapsulation__: Code and functions **in a single unit**.
+* __`new`__ is used to **allocate** **memory** at **runtime**.
+* **Anonymous objects** are **nameless** objects. There are **no references** to these objects.
 ***
 ## Exception Handling
 ***
@@ -195,4 +202,11 @@ __Please note that these notes are just collection of my lecture notes and resea
 * __Execution Engine__ = __Virtual Processor__ + __Interpreter__ + __JIT__
 * __JIT__, __compiles__ bytecode __in blocks__(similar functionality).
 * __Native Method Interface__: __Interface__ for __other programs__ writte in another language. 
+***
+* __Writing the state of an object into a byte stream__ is called __serialization__.
+* Serialization mostly used on **networking**.
+* __`java.io.Serializable`__ is an **interface** used to **mark a class** to provide capabilities.
+* __`java.lang.String`__ and __Wrapper classes__ implements __`java.io.Serializable`__.
+* Only **objects** which is an instance of a class that **implements** __`java.io.Serializable`__ **can** be **written to streams**.
+* __`transient`__ is used in __serialization__. If you __define__ any data as __transient__, it __won't__ be __serialized__. 
 ***
