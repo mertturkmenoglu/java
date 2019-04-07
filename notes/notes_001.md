@@ -10,6 +10,9 @@ __Please note that these notes are just collection of my lecture notes and resea
 * Lambda expressions __can be used as parameters__. They behave as objects.
 * A basic __lambda expression__ looks as:
     * `(parameter list) -> (function body)`
+***
+## Classes
+***
 * A __method declaration__ is basically:
     * `Modifier - Return type - Method name - Parameter list - Exception list - Method Body`
 * __Method Modifier__ Types: 
@@ -52,6 +55,9 @@ __Please note that these notes are just collection of my lecture notes and resea
 * Every __other data type__ is an __Object__.
 * __Objects__ are always __referances__ to a certain __memory location__.
 * Java creates a __new copy__ of the __referance__ for __parameters__.
+***
+## Constructors
+***
 * A __constructor__ can __not__ be __`final`__, __`abstract`__, __`static`__ or __`synchronized`__.
 * If you do __not__ __write__ a __constructor__, __compiler__ will __create__ a constructor __automatically__
 * If a __constructor__ has __parameters__, it is called __parameterized constructor__.
@@ -72,6 +78,9 @@ __Please note that these notes are just collection of my lecture notes and resea
     * __Private constructor__
     * Does __not__ use __`new`__ keyword, uses __`getInstance()`__ method(by convention).
     * Method __returns an object__ to the class.
+***
+## Exception Handling
+***
 * __Exception__: On __execution__, __distrupts__ flow, __unwanted__, __unexpected__ event.
 * __Error__: On __execution__, __problem__ on __system__.
 * Exceptions and errors are __sub-classes__ of __`Throwable`__ class.
@@ -117,6 +126,8 @@ __Please note that these notes are just collection of my lecture notes and resea
     * `StringIndexOutOfBoundException`
 * __Integer__ div by __0__ will __throw__ __`java.lang.ArithmeticException: / by zero exception`__ 
 ***
+## Garbage Collection
+***
 * __Mark__ and __Sweep__ - __Shuffling__
 * __GC time__: __Decreases__ with __increase__ of __dead object number__, __increases__ with __increase__ of __live object number__.
 * __Wrapper class__: `Primitive data type` --> `Object`
@@ -132,3 +143,56 @@ __Please note that these notes are just collection of my lecture notes and resea
 * Anonymous object's id is __not__ stored. So it will be __eligible__(F) for __GC__.
 * __Wrapping__ of primitive data types are important for __multithreading sync__.
 * __Wrapper objects__ are __immutable__. On variable value __changings__, in background, a __new object__ is created, object will be __unboxed__, arithmetic __operation__ will be done, __new value__ will be __boxed__, new object __referance__ will be __assigned__ to the __object__.
+***
+## JVM - JRE - JDK
+***
+* Java is __architecture-neutral__. There are __no implementation dependent__ features.
+* Having __semicolon__ at the __end__ of a __class__ definition is __optional__.
+* JVM Runtime Operations: 
+    * __Class__ file is __loaded__ by __Classloader__.
+    * __Bytecode verifier__ checks for illegal operations.
+    * __Interpreter__ reads __bytecode__ and executes instructions on hardware.
+* __JVM__, __JRE__ and __JDK__ are platform __dependent__. Because every __architecture__ needs __different configurations__.
+* Language itself is platform independent.
+* __JDK__ = __JRE__ + __Dev Tools__
+* __JRE__ = __JVM__ + __Libraries__
+* __JVM__ = __Classloader__ + __Memory Areas__ + __Execution Engine__ + __Native Method Interface__ + __Native Libraries__
+***
+## JVM
+***
+* __Classloader__: Loads class files to JVM. 
+    1. __Bootstrap Classloader__: 
+        * Loads __rt.jar__ file
+        * This file contains:
+            * __`java.lang`__
+            * __`java.net`__
+            * __`java.util`__
+            * __`java.io`__
+            * __`java.sql`__
+    2. __Extension Classloader__:
+        * Loads __`$JAVA_HOME/jre/lib/ext`__
+    3. __System Classloader__:
+        * Loads class files from __classpath__.
+        * Default: current directory
+* __Memory areas__ allocated by JVM:
+    1. __Class Area__:
+        * __Stores class structures__
+        * Holds constants, member fields and instance method datas.
+        * Method codes
+    2. __Heap Memory__:
+        * __Runtime__ data area
+        * __Objects__ are __allocated__ here.
+    3. __Stack__:
+        * Stores __frames__.
+        * Holds __local variables__.
+        * Method invocation __(Assembly)__
+        * __Return__ value
+        * Each __thread__ has private stack.
+    4. __PC Register__:
+        * Same as __Instructor Pointer(IP)__ in __80x86 Assembly__
+    5. __Native Method Stack__:
+        * __Contains__ all __native(built-in) methods__ used in program.
+* __Execution Engine__ = __Virtual Processor__ + __Interpreter__ + __JIT__
+* __JIT__, __compiles__ bytecode __in blocks__(similar functionality).
+* __Native Method Interface__: __Interface__ for __other programs__ writte in another language. 
+***
