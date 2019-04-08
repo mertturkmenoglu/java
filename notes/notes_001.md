@@ -487,3 +487,46 @@ __Please note that these notes are just collection of my lecture notes and resea
     .  
     .  
 ```
+* In an **interface**, you may have **abstract methods** and **static final variables**.
+* Since *Java 8*, you can add *default* and *static* methods.
+* Since *Java 9*, you can add *private methods*.
+* Possible scenarios:
+    * A **class** **extends** a **class**
+    * A **class** **implements** an **interface**
+    * An **interface** **extends** an **interface**
+* An **interface** can **extend** another **interface** only.
+* **Members** of an **interface** are **public**.
+* If you **import** a **package**, **subpackages** will **not** be **imported** automatically.
+***
+* **Scanner** class **bug**: If you try to **get** a **string** **after** getting a **primitive**, string **goes to void**. You should use **`nextLine()`** **after** getting **primitive**.
+* A valid enum definition:  
+```java  
+    public enum PizzaSize {  
+        SMALL, MEDIUM, LARGE, EXTRA;  
+    }  
+    .  
+    .  
+    .  
+    PizzaSize order = PizzaSize.SMALL;  
+    .  
+    .  
+    .  
+```  
+* Enum class:  
+```java  
+    public enum InternetList {  
+        UNLIMITED4GIG(4, 100, 50),  
+        UNLIMITED6GIG(6, 100, 60),  
+        UNLIMITED8GIG(8, 100, 70);  
+  
+        private int quota;  
+        private int speed;  
+        private int fee;  
+        // Constructor must be private  
+        private InternetList(int quota, int speed, int fee) {  
+            this.quota = quota;  
+            this.speed = speed;
+            this.fee = fee;  
+        }  
+    }  
+```
