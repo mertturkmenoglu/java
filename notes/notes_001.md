@@ -417,3 +417,73 @@ __Please note that these notes are just collection of my lecture notes and resea
 * **Static blocks**:
     * Used to **initialize static member variables**.
     * **Executed** at the **classloading**.
+***
+* **Aggregation** -> **HAS-A**  
+```java
+    class Person {
+        int age;
+        String name;
+        Location location;  // Person has a referance
+        ...
+    }
+```
+* In method **overloading**, argument **type** is **promoted** to another type **implicitly** **if** it is **not match** with overloaded methods **signatures**. 
+* Method **must** have the **same parameter** **as** in **parent** class for method **overriding**.
+* A **static method** can **not** be **overriden**.
+* __`final`__ can be used with:
+    1. **Variables** (It becomes constant)
+    2. **Methods** (You can not override it)
+    3. **Classes** (You can not extend it)
+* **Uninitialized final** variable can be **initialized** ***only*** in **constructor**.
+* **Uninitialized static final** variable can be **initialized only** in **static block**.
+* A **constructor** can **never** be declared as **final**.
+* **Upcasting**:  
+```java  
+    class A {  
+  
+    }  
+  
+    class B extends A {  
+  
+    }  
+```  
+  
+```java  
+    A objA = new B(); // Upcasting  
+```  
+* **Static binding**: **Type** of the object is **determined** at **compile** time.
+* **Dynamic binding**: **Type** of the object is **determined** at **run-time**.  
+```java  
+    class Animal {  
+        void sound() {  
+  
+        }  
+    }  
+  
+    class Dog extends Animal {  
+        @Override  
+        void sound() {  
+            System.out.println("Dog sound");  
+        }  
+    }  
+  
+    class Cat extends Animal {  
+        @Override  
+        void sound() {  
+            System.out.println("Cat sound");  
+        }  
+    }  
+    .  
+    .  
+    .  
+    ArrayList<Animal> shelterList = new ArrayList<Animal>();  
+    // Add cats and dogs to list  
+  
+    // Then for each animal, make sound  
+    for(Animal a : shelterList) {  
+        a.sound();  // Dynamic binding  
+    }  
+    .  
+    .  
+    .  
+```
