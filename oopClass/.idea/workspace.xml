@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2380664b-7be8-4b5c-ae1b-6b749df17492" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/oop/interfaceExample/ex001/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/interfaceExample/ex001/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/interfaceExample/ex001/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/interfaceExample/ex001/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/interfaceExample/ex001/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/interfaceExample/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/mathExamples/ex_001/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/mathExamples/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,19 +16,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/oop/interfaceExample/ex001/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/oop/mathExamples/ex_001/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/oop/interfaceExample/ex001/Circle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="140">
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -93,6 +80,7 @@
         <option value="$PROJECT_DIR$/src/oop/interfaceExample/ex001/Circle.java" />
         <option value="$PROJECT_DIR$/src/oop/interfaceExample/ex001/Cylinder.java" />
         <option value="$PROJECT_DIR$/src/oop/interfaceExample/ex001/Main.java" />
+        <option value="$PROJECT_DIR$/src/oop/mathExamples/ex_001/Main.java" />
       </list>
     </option>
   </component>
@@ -130,15 +118,7 @@
               <item name="oopClass" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaceExample" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oopClass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oopClass" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaceExample" type="462c0819:PsiDirectoryNode" />
-              <item name="ex001" type="462c0819:PsiDirectoryNode" />
+              <item name="mathExamples" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -148,10 +128,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554931792139" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554932253049" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="Images" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -165,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop.regex.Main" />
       <module name="oopClass" />
@@ -205,12 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.singleton.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.mathExamples.ex_001.Main" />
       <module name="oopClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.singleton.*" />
+          <option name="PATTERN" value="oop.mathExamples.ex_001.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +304,7 @@
     <frame x="0" y="0" width="1887" height="1079" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27601314" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.275937" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -333,7 +313,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839914" weight="0.3278867" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839914" weight="0.3277487" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -352,6 +332,35 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.275937" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839914" visible="true" weight="0.3277487" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.50160086" side_tool="true" weight="0.3278867" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50160086" side_tool="true" weight="0.32845187" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49839914" weight="0.32670158" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32845187" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3294979" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -730,8 +739,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/oop/interfaceExample/ex001/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="512">
           <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/oop/mathExamples/ex_001/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
         </state>
       </provider>
     </entry>
