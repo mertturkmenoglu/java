@@ -100,3 +100,85 @@ __Please note that these notes are just collection of my lecture notes and resea
         }  
     }  
 ```  
+***
+## ArrayList
+***
+* **Dynamic** array.
+* **Extends** *AbstractList* 
+* **Implements** *List*
+* Can **contain duplicates**
+* ArrayList is **not synchronized**.
+* Allows **random access**.
+* **Removing** an element is **slow**.
+* **ArrayList** --(Extends)--> **AbstractList** --(Implements)--> **List** --(Extends)--> **Collection** --(Extends)--> **Iterable**
+* **`java.util.ArrayList`**
+* **`public class ArrayList<E> extends AbstractList<E> implements List<E>, RandomAccess, Cloneable, Serializable {...}`**
+* **Allows null** elements.
+* Constructors:
+    * **`ArrayList()`**
+    * **`ArrayList(Collection<? extends E> c)`**
+    * **`ArrayList(int initialCapacity)`**
+* Methods(some of them):
+    * **`boolean add(E e)`**
+        * **Append** element to end of list
+    * **`void add(int index, E element)`**
+        * **Insert** element at the position.
+    * **`void clear()`**
+        * **Remove all** elements.
+    * **`Object clone()`**
+        * **Return** a **shallow copy** of the instance.
+    * **`boolean contains(Object o)`**
+        * Return **`true`** **if** list **contains** the **object**.
+    * **`void ensureCapacity(int minCapacity)`**
+        * **If necessary, increase capacity**.
+    * **`void forEach(Consumer<? super E> action`**
+        * **Perform** given **action** **on each element**.
+    * **`E get(int index)`**
+        * **Return** the **element at the position**.
+    * **`int indexOf(Object o)`**
+        * **Return** the **index of first occurence. Else, -1.**
+    * **`boolean isEmpty()`**
+        * Return **`true`** **if** list contains **no elements**.
+    * **`Iterator<E> iterator()`**
+        * **Return** a **list iterator**.
+    * **`E remove(int index)`**
+        * **Remove** the **element at the index**.
+    * **`boolean remove(Object o)`**
+        * **Remove first occurence** if it is present.
+    * **`E set(int index, E element)`**
+        * **Replace** element **at** the given **index** with given element and return.
+    * **`int size()`**
+        * Return **number of the elements**.
+    * **`void sort(Comparator<? super E> c)`**
+        * **Sort** the list **with** given **Comparator**.
+    * **`Object[] toArray()`**
+        * **Return** an **array** contains all list elements.
+######
+* **Ways** to **iterate**:
+    * **Iterator**
+    * **ListIterator**
+    * **for-each** loop
+    * Classic **for** loop
+    * **`forEach()`**
+* With an **Iterator**:  
+```java
+    ...  
+    ArrayList<Object> myList = new ArrayList<Object>();  
+    ...  
+    Iterator iterator = myList.iterator();  
+    while(iterator.hasNext()) {  
+        ...  
+    }  
+```  
+* With a **for-each loop**:  
+```java  
+    for(Object o : myList) {  
+        ...  
+    }  
+```  
+* With **`forEach()`**:
+```java  
+    myList.forEach(obj -> {  
+        ...  
+    });  
+```  
