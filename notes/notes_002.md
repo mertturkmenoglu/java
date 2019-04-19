@@ -182,3 +182,101 @@ __Please note that these notes are just collection of my lecture notes and resea
         ...  
     });  
 ```  
+***  
+## Collections
+***  
+* Collection **methods**: 
+    * **`boolean add(E e)`**
+    * **`boolean remove(Object element)`**
+    * **`boolean retainAll(Collection<?> c)`**
+    * **`int size()`**
+    * **`void clear()`**
+    * **`boolean contains(Object element)`**
+    * **`Iterator iterator()`**
+    * **`Object[] toArray()`**
+    * **`<T> T[] toArray(T[] a)`**
+    * **`boolean isEMpty()`**
+    * **`boolean equals(Object element)`**
+    * **`int hashCode()`**
+* Iterator **methods**:
+    * **`boolen hasNext()`**
+    * **`Object next()`**
+    * **`void remove()`**
+* **Iterable** is an **interface**.
+* **Collection** is an **interface**.
+* **Sub**-interfaces of **Collection**:
+    * **List**
+    * **Queue**
+    * **Set**
+* **Sub**-classes of **List**:
+    * **ArrayList**
+    * **LinkedList**
+    * **Vector**
+    * **Stack**
+* **Sub**-classes of **Queue**:
+    * **PriorityQueue**
+    * **ArrayDeque** (**Deque** + **LinkedList**)
+* **Sub**-classes of **Set**:
+    * **HashSet**
+    * **LinkedHashSet**
+***
+* **ArrayList**(Class):
+    * Implements **List**.
+    * **Dynamic** array
+    * **Allows duplicate** elements
+    * **Non-synchronized**
+    * Allows **random-access**
+* **LinkedList**(Class):
+    * Implements **List**.
+    * **Doubly linked list**
+    * **Allows duplicate** elements
+    * **Non-synchronized**
+    * Fast manipulation
+    * **No random-access**
+* **Vector**(Class):
+    * Similar to **ArrayList**
+    * **Synchronized**
+    * Other methods than Collecon
+* **Stack**(Class):
+    * Extends **Vector**
+    * **LIFO**
+    * **`push()`**
+    * **`peek()`**
+    * **`pop()`**
+* **Queue**(Interface):
+    * **FIFO**
+    * **Ordered** List
+* **PriorityQueue**(Class):
+    * Implements **Queue**
+    * Holds by object **priorities**
+    * Does **not allow `null`**
+* **Deque**(Interface):
+    * Extends **Queue** interface
+    * Remove and add from **both side**
+    * **Double-ended** queue
+* **ArrayDeque**(Class):
+    * Implements **Deque**
+    * **Faster** than ArrayList and Stack
+* **Set**(Interface):
+    * Extends Collection interface.
+    * **Unordered** elements
+    * Does **not allow duplicates**.
+    * **Max one `null`** value
+* **HashSet**(Class):
+    * Implements **Set** 
+    * **HashTable**
+    * **Unique**
+* **LinkedHashSet**(Class):
+    * **LinkedList** + **Set**
+    * Extends **HashSet**
+    * Keeps **insertion order**
+    * **Allows null** elements
+* **SortedSet**(Interface):
+    * Total **ordering**
+    * **Ascending** order
+* **TreeSet**(Class):
+    * Implements **Set**
+    * **Unique**
+    * **Access** is **fast**
+    * **Ascending** order
+***
