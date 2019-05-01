@@ -1,6 +1,6 @@
-package oop.generic;
+package oop.Generic.example_001;
 
-import oop.annotation.DefaultConstructor;
+import oop.Annotation.example_001.DefaultConstructor;
 
 public class TestGeneric<T> {
 

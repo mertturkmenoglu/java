@@ -1,4 +1,4 @@
-package oop.generic;
+package oop.Generic.example_001;
 
 public class Main {
     public static void main(String[] args) {

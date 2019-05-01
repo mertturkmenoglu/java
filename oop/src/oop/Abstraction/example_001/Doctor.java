@@ -1,4 +1,4 @@
-package oop.doctorwho;
+package oop.Abstraction.example_001;
 
 @SuppressWarnings({"unused", "WeakerAccess"})
 public class Doctor extends AbstractTimeLord {

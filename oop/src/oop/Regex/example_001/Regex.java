@@ -1,4 +1,4 @@
-package oop.regex;
+package oop.Regex.example_001;
 
 @SuppressWarnings("WeakerAccess")
 public class Regex {

@@ -1,4 +1,4 @@
-package oop.interfaceExample.ex001;
+package oop.Interface.example_001;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package oop.exception.example_001;
+package oop.Exception.example_001;
 
 public class Main {
     public static void main(String[] args) {

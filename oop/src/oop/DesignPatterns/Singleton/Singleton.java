@@ -1,4 +1,4 @@
-package oop.singleton;
+package oop.DesignPatterns.Singleton;
 
 // Java Design Patterns - Singleton Class
 @SuppressWarnings("WeakerAccess")

@@ -1,4 +1,4 @@
-package oop.interfaceExample.ex001;
+package oop.Interface.example_001;
 
 public class Cylinder extends Circle{
     private float h;

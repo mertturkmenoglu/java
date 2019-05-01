@@ -1,4 +1,4 @@
-package oop.instance;
+package oop.Instance.example_001;
 
 // Illustrate instance initialization block
 public class Student {

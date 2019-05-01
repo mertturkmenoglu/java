@@ -1,4 +1,4 @@
-package oop.mathExamples.ex_001;
+package oop.Math.example_001;
 
 // Math.
 public class Main {

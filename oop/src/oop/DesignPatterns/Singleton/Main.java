@@ -1,4 +1,4 @@
-package oop.singleton;
+package oop.DesignPatterns.Singleton;
 
 public class Main {
     public static void main(String[] args) {
