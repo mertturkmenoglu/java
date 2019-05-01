@@ -1,4 +1,4 @@
-package oop.exception;
+package oop.exception.example_001;
 
 @SuppressWarnings("all")
 public class InvalidNumberException extends Exception {

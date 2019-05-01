@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/oop/mathExamples/ex_001/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -138,6 +138,20 @@
               <item name="oopClass" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oopClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oopClass" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaceExample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oopClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oopClass" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
               <item name="mathExamples" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -150,6 +164,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554939007901" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="Images" />
   </component>
@@ -168,7 +183,7 @@
   <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop.regex.Main" />
-      <module name="oopClass" />
+      <module name="oop" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="oop.regex.*" />
@@ -181,7 +196,7 @@
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop.instanceofOperator.Main" />
-      <module name="oopClass" />
+      <module name="oop" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="oop.instanceofOperator.*" />
@@ -194,7 +209,7 @@
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop.interfaceExample.ex001.Main" />
-      <module name="oopClass" />
+      <module name="oop" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="oop.interfaceExample.ex001.*" />
@@ -207,7 +222,7 @@
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop.mathExamples.ex_001.Main" />
-      <module name="oopClass" />
+      <module name="oop" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="oop.mathExamples.ex_001.*" />
@@ -220,7 +235,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop.doctorwho.Main" />
-      <module name="oopClass" />
+      <module name="oop" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="oop.doctorwho.*" />
@@ -321,10 +336,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="26" width="1920" height="1015" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="-1" width="1920" height="1080" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2886873" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.291889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -743,7 +757,7 @@
     <entry file="file://$PROJECT_DIR$/src/oop/mathExamples/ex_001/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
