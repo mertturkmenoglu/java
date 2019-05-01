@@ -2,36 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2380664b-7be8-4b5c-ae1b-6b749df17492" name="Default Changelist" comment="Add Regular Expressions&#10;&#10;Add basic email and phone number validator methods.">
-      <change beforePath="$PROJECT_DIR$/src/oop/Abstraction/example_001/AbstractHuman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Abstraction/example_001/AbstractHuman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Abstraction/example_001/AbstractTimeLord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Abstraction/example_001/AbstractTimeLord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Abstraction/example_001/Companion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Abstraction/example_001/Companion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Abstraction/example_001/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Abstraction/example_001/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Abstraction/example_001/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Abstraction/example_001/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Abstraction/example_001/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Abstraction/example_001/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Abstraction/example_001/Tardis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Abstraction/example_001/Tardis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Abstraction/example_001/TimeLord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Abstraction/example_001/TimeLord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Annotation/example_001/DefaultConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Annotation/example_001/DefaultConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/DesignPatterns/Singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/DesignPatterns/Singleton/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/DesignPatterns/Singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/DesignPatterns/Singleton/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Exception/example_001/InvalidNumberException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Exception/example_001/InvalidNumberException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Exception/example_001/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Exception/example_001/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Exception/example_001/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Exception/example_001/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Generic/example_001/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Generic/example_001/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Generic/example_001/TestGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Generic/example_001/TestGeneric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Instance/example_001/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Instance/example_001/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Instance/example_001/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Instance/example_001/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Instance/example_002/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Instance/example_002/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Instance/example_002/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Instance/example_002/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Instance/example_002/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Instance/example_002/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Interface/example_001/ex001/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Interface/example_001/ex001/Cylinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Interface/example_001/ex001/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Interface/example_001/ex001/Point.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Interface/example_001/ex001/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Interface/example_001/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Math/example_001/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Math/example_001/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Regex/example_001/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Regex/example_001/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Regex/example_001/Regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Regex/example_001/Regex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/MultiThreading/example_001/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/MultiThreading/example_001/MessageThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/MultiThreading/example_002/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/MultiThreading/example_002/MessageThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,28 +21,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/oop/Math/example_001/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/oop/MultiThreading/example_002/MessageThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/oop/Regex/example_001/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="29" selection-start-column="8" selection-end-column="29" />
+            <state relative-caret-position="75">
+              <caret line="3" column="71" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/oop/Regex/example_001/Regex.java">
+        <entry file="file://$PROJECT_DIR$/src/oop/MultiThreading/example_002/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="29" selection-start-column="29" selection-end-column="29" />
+            <state relative-caret-position="231">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -92,10 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/oop/doctorwho/TimeLord.java" />
-        <option value="$PROJECT_DIR$/src/oop/doctorwho/Human.java" />
-        <option value="$PROJECT_DIR$/src/oop/doctorwho/Doctor.java" />
-        <option value="$PROJECT_DIR$/src/oop/doctorwho/Tardis.java" />
         <option value="$PROJECT_DIR$/src/oop/doctorwho/AbstractHuman.java" />
         <option value="$PROJECT_DIR$/src/oop/doctorwho/AbstractTimeLord.java" />
         <option value="$PROJECT_DIR$/src/oop/doctorwho/Companion.java" />
@@ -143,6 +105,10 @@
         <option value="$PROJECT_DIR$/src/oop/Math/example_001/Main.java" />
         <option value="$PROJECT_DIR$/src/oop/Regex/example_001/Main.java" />
         <option value="$PROJECT_DIR$/src/oop/Regex/example_001/Regex.java" />
+        <option value="$PROJECT_DIR$/src/oop/MultiThreading/example_001/MessageThread.java" />
+        <option value="$PROJECT_DIR$/src/oop/MultiThreading/example_001/Main.java" />
+        <option value="$PROJECT_DIR$/src/oop/MultiThreading/example_002/MessageThread.java" />
+        <option value="$PROJECT_DIR$/src/oop/MultiThreading/example_002/Main.java" />
       </list>
     </option>
   </component>
@@ -181,15 +147,15 @@
               <item name="oop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="Regex" type="462c0819:PsiDirectoryNode" />
+              <item name="MultiThreading" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oop" type="b2602c69:ProjectViewProjectNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="Regex" type="462c0819:PsiDirectoryNode" />
-              <item name="example_001" type="462c0819:PsiDirectoryNode" />
+              <item name="MultiThreading" type="462c0819:PsiDirectoryNode" />
+              <item name="example_002" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -217,20 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.regex.Main" />
-      <module name="oop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop.regex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop.instanceofOperator.Main" />
       <module name="oop" />
@@ -270,12 +223,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.doctorwho.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.MultiThreading.example_001.Main" />
       <module name="oop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.doctorwho.*" />
+          <option name="PATTERN" value="oop.MultiThreading.example_001.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.MultiThreading.example_002.Main" />
+      <module name="oop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.MultiThreading.example_002.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,11 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -385,7 +351,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49786553" weight="0.35251045" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49786553" visible="true" weight="0.35251045" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -489,11 +455,6 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/oop/exception/InvalidNumberException.java" />
-    <entry file="file://$PROJECT_DIR$/src/oop/exception/Person.java" />
-    <entry file="file://$PROJECT_DIR$/src/oop/singleton/Singleton.java" />
-    <entry file="file://$PROJECT_DIR$/src/oop/regex/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/oop/instance/Student.java" />
     <entry file="file://$PROJECT_DIR$/src/oop/instance/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/oop/regex/Regex.java" />
     <entry file="file://$PROJECT_DIR$/src/oop/instanceofOperator/Robot.java" />
@@ -701,10 +662,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/oop/Math/example_001/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/oop/Regex/example_001/Regex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -715,10 +676,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/oop/Regex/example_001/Regex.java">
+    <entry file="file://$PROJECT_DIR$/src/oop/Math/example_001/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/oop/MultiThreading/example_001/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/oop/MultiThreading/example_001/MessageThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/oop/MultiThreading/example_002/MessageThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="71" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/oop/MultiThreading/example_002/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
