@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2380664b-7be8-4b5c-ae1b-6b749df17492" name="Default Changelist" comment="Add Regular Expressions&#10;&#10;Add basic email and phone number validator methods.">
-      <change afterPath="$PROJECT_DIR$/src/oop/MultiThreading/example_001/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/MultiThreading/example_001/MessageThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/MultiThreading/example_002/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/MultiThreading/example_002/MessageThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/Exception/example_001/InvalidNumberException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Exception/example_001/InvalidNumberException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/Exception/example_001/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Exception/example_001/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/Instance/example_002/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Instance/example_002/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/Instance/example_002/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Instance/example_002/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/Instance/example_002/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Instance/example_002/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/Interface/example_001/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Interface/example_001/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/Interface/example_001/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Interface/example_001/Cylinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/Interface/example_001/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Interface/example_001/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/Interface/example_001/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Interface/example_001/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/Math/example_001/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Math/example_001/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,26 +24,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/oop/MultiThreading/example_002/MessageThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="71" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/oop/MultiThreading/example_002/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -141,21 +127,6 @@
               <item name="oop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="MultiThreading" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="MultiThreading" type="462c0819:PsiDirectoryNode" />
-              <item name="example_002" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -340,7 +311,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2950907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -704,17 +674,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/oop/MultiThreading/example_002/MessageThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="71" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/oop/MultiThreading/example_002/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/oop/MultiThreading/example_002/MessageThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="71" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
         </state>
       </provider>
     </entry>

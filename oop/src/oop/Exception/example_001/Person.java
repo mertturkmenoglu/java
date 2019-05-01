@@ -31,8 +31,8 @@ public class Person {
     }
 
     @SuppressWarnings("WeakerAccess")
-    public void setAge(int age) throws InvalidNumberException{
-        if(age < 0 || age > 200)
+    public void setAge(int age) throws InvalidNumberException {
+        if (age < 0 || age > 200)
             throw new InvalidNumberException();
         else
             this.age = age;

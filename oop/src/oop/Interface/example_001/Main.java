@@ -11,7 +11,7 @@ public class Main {
         shapes[1] = circle;
         shapes[2] = cylinder;
 
-        for(Shape s : shapes) {
+        for (Shape s : shapes) {
             System.out.println(s.getName() + "\tArea: " + s.area() + "\tVolume: " + s.volume());
         }
     }

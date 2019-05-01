@@ -23,7 +23,7 @@ public class Circle extends Point {
     }
 
     public float area() {
-        return (float)Math.PI * r * r;
+        return (float) Math.PI * r * r;
     }
 
     public String getName() {

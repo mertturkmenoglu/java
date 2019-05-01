@@ -1,6 +1,6 @@
 package oop.Interface.example_001;
 
-public class Cylinder extends Circle{
+public class Cylinder extends Circle {
     private float h;
 
     public Cylinder(float h, float r, float x, float y) {
@@ -20,7 +20,7 @@ public class Cylinder extends Circle{
 
     @Override
     public float area() {
-        return 2 * super.area() + 2 * (float)Math.PI*r*h;
+        return 2 * super.area() + 2 * (float) Math.PI * r * h;
     }
 
     @Override
