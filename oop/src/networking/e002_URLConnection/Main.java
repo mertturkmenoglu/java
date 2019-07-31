@@ -1,4 +1,4 @@
-package e002_URLConnection;
+package networking.e002_URLConnection;
 
 import java.io.IOException;
 import java.io.InputStream;

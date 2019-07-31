@@ -1,4 +1,4 @@
-package e003_HttpURLConnection;
+package networking.e003_HttpURLConnection;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;

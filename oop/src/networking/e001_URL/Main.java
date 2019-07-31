@@ -1,4 +1,4 @@
-package e001_URL;
+package networking.e001_URL;
 
 
 import java.net.URL;
