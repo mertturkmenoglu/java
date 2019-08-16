@@ -1,4 +1,4 @@
-package gui.E001_ColorChooser;
+package gui.e001_ColorChooser;
 
 import javax.swing.*;
 import java.awt.*;
@@ -21,7 +21,7 @@ public class ColorChooserExample {
 
         JLabel headerLabel = new JLabel("JColorChooser Example", JLabel.CENTER);
 
-        JLabel statusLabel = new JLabel("", JLabel.CENTER);
+        JLabel statusLabel = new JLabel("Status", JLabel.CENTER);
         statusLabel.setSize(256,128);
 
         JPanel controlPanel = new JPanel();
